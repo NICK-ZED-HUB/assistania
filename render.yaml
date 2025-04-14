@@ -8,4 +8,4 @@ services:
       - key: NODE_VERSION
         value: 18
       - key: OPENAI_API_KEY
-        value: <ta_clé_OpenAI_ici>
+        value: YOUR-OPENAI-KEY-HERE
