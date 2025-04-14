@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: assistania
+    env: node
+    buildCommand: corepack enable && yarn install && yarn build
+    startCommand: yarn start
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: OPENAI_API_KEY
+        value: <ta_clé_OpenAI_ici>
