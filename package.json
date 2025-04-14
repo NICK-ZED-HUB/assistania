@@ -11,9 +11,7 @@
     "format": "prettier --write \"app\""
   },
   "engines": {
-  "node": "18.x"
-}
-
+    "node": "18.x"
   },
   "dependencies": {
     "@langchain/community": "^0.3.37",
